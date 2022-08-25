@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: javax.servlet.jsp.jstl.tlv;uses:="javax.xml.parsers,ja
+ vax.servlet.jsp.tagext,org.xml.sax.helpers,org.xml.sax";version="1.2.
+ 3.SNAPSHOT",javax.servlet.jsp.jstl.fmt;uses:="javax.servlet,javax.ser
+ vlet.jsp.jstl.core,javax.servlet.jsp,javax.servlet.http";version="1.2
+ .3.SNAPSHOT",javax.servlet.jsp.jstl.core;uses:="javax.servlet,javax.e
+ l,javax.servlet.jsp.tagext,javax.servlet.jsp,javax.servlet.http";vers
+ ion="1.2.3.SNAPSHOT",javax.servlet.jsp.jstl.sql;version="1.2.3.SNAPSH
+ OT"
+Tool: Bnd-0.0.255
+Bundle-Name: JavaServer Pages(TM) Standard Tag Library API
+Created-By: 1.7.0_80 (Oracle Corporation)
+Bundle-Vendor: GlassFish Community
+Bundle-Version: 1.2.3.SNAPSHOT
+Bnd-LastModified: 1661439678561
+Bundle-ManifestVersion: 2
+Bundle-License: http://glassfish.dev.java.net/nonav/public/CDDL+GPL.ht
+ ml
+Bundle-Description: Java.net - The Source for Java Technology Collabor
+ ation
+Import-Package: javax.el,javax.servlet,javax.servlet.http,javax.servle
+ t.jsp,javax.servlet.jsp.jstl.core;version="1.2.3.SNAPSHOT",javax.serv
+ let.jsp.jstl.fmt;version="1.2.3.SNAPSHOT",javax.servlet.jsp.jstl.sql;
+ version="1.2.3.SNAPSHOT",javax.servlet.jsp.jstl.tlv;version="1.2.3.SN
+ APSHOT",javax.servlet.jsp.tagext,javax.xml.parsers,org.xml.sax,org.xm
+ l.sax.helpers
+Bundle-SymbolicName: javax.servlet.jsp.jstl-api
+Bundle-DocURL: http://glassfish.org
+Originally-Created-By: 1.7.0_80 (Oracle Corporation)
+

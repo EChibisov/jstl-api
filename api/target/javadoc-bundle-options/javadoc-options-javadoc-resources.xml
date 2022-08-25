@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javadocOptions>
+  <groups>
+    <group>
+      <title>JavaServer Pages(TM) Standard Tag Library API Documentation</title>
+      <packages>javax.servlet.jsp.jstl</packages>
+    </group>
+  </groups>
+  <docletArtifacts>
+    <docletArtifact />
+  </docletArtifacts>
+  <tagletArtifacts>
+    <tagletArtifact />
+  </tagletArtifacts>
+  <javadocResourcesDirectory>src/main/javadoc</javadocResourcesDirectory>
+</javadocOptions>
