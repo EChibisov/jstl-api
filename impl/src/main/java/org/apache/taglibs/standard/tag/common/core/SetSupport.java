@@ -141,7 +141,7 @@ public class SetSupport extends BodyTagSupport {
 		if (scopeSpecified)
 		    pageContext.removeAttribute(var, scope);
 		else
-		    pageContext.removeAttribute(var);
+		    pageContext.removeAttribute(var, PageContext.PAGE_SCOPE);
 
                 if (scope == PageContext.PAGE_SCOPE) {
                     VariableMapper vm =

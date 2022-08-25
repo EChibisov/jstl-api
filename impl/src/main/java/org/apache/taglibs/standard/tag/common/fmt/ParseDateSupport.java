@@ -225,7 +225,8 @@ public abstract class ParseDateSupport extends BodyTagSupport {
                     Resources.getMessage("PARSE_DATE_INVALID_TYPE", type));
 	}
 
-	parser.setLenient(false);
+	String value = pageContext.getServletContext().getInitParameter("com.ibm.ws.jstl.allowLenientDateParsing");
+	parser.setLenient(Boolean.valueOf(value));
 
 	return parser;
     }

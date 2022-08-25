@@ -80,7 +80,7 @@ public class RemoveTag extends TagSupport {
     // removes the variable (from a specific scope, if specified)
     public int doEndTag() throws JspException {
         if (!scopeSpecified)
-            pageContext.removeAttribute(var);
+            pageContext.removeAttribute(var, PageContext.PAGE_SCOPE);
         else
             pageContext.removeAttribute(var, scope);
 	return EVAL_PAGE;
