@@ -71,7 +71,7 @@ Bundle-Name: JavaServer Pages (TM) TagLib Implementation
 Created-By: 1.7.0_80 (Oracle Corporation)
 Bundle-Vendor: GlassFish Community
 Bundle-Version: 1.2.6.SNAPSHOT
-Bnd-LastModified: 1661439692268
+Bnd-LastModified: 1661456439463
 Bundle-ManifestVersion: 2
 Bundle-Description: Java.net - The Source for Java Technology Collabor
  ation

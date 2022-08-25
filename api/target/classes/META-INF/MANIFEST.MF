@@ -12,7 +12,7 @@ Bundle-Name: JavaServer Pages(TM) Standard Tag Library API
 Created-By: 1.7.0_80 (Oracle Corporation)
 Bundle-Vendor: GlassFish Community
 Bundle-Version: 1.2.3.SNAPSHOT
-Bnd-LastModified: 1661439678561
+Bnd-LastModified: 1661456429712
 Bundle-ManifestVersion: 2
 Bundle-License: http://glassfish.dev.java.net/nonav/public/CDDL+GPL.ht
  ml
